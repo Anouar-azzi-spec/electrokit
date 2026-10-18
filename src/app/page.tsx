@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-100 flex flex-col items-center justify-center">
@@ -10,9 +12,9 @@ export default function Home() {
       </p>
 
       <div className="grid grid-cols-2 gap-4">
-        <button className="p-6 bg-white rounded-xl shadow">
-          Power Calculator
-        </button>
+        <Link href="/power" className="p-6 bg-white rounded-xl shadow">
+          Power Calculator ⚡
+        </Link>
 
         <button className="p-6 bg-white rounded-xl shadow">
           Current Calculator
