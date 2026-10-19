@@ -16,9 +16,12 @@ export default function Home() {
           Power Calculator ⚡
         </Link>
 
-        <button className="p-6 bg-white rounded-xl shadow">
-          Current Calculator
-        </button>
+        <Link
+         href="/current"
+         className="p-6 bg-blue-200 rounded-xl shadow text-center hover:bg-blue-300 transition"
+        >
+          Current Calculator ⚡
+        </Link>
 
         <button className="p-6 bg-white rounded-xl shadow">
           Voltage Drop
