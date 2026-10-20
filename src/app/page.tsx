@@ -23,9 +23,12 @@ export default function Home() {
           Current Calculator ⚡
         </Link>
 
-        <button className="p-6 bg-white rounded-xl shadow">
-          Voltage Drop
-        </button>
+       <Link
+         href="/voltagedrop"
+         className="p-6 bg-yellow-200 rounded-xl shadow text-center hover:bg-yellow-300 transition"
+       >
+         Voltage Drop ⚡
+       </Link>
 
         <button className="p-6 bg-white rounded-xl shadow">
           Cable Size
