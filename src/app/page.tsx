@@ -30,9 +30,12 @@ export default function Home() {
          Voltage Drop ⚡
        </Link>
 
-        <button className="p-6 bg-white rounded-xl shadow">
-          Cable Size
-        </button>
+        <Link
+         href="/cablesize"
+         className="p-6 bg-purple-200 rounded-xl shadow text-center hover:bg-purple-300 transition"
+        >
+         Cable Size ⚡
+        </Link>
       </div>
     </main>
   );
