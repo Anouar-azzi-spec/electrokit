@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function CableSizePage() {
   const [current, setCurrent] = useState("");
@@ -21,6 +22,12 @@ export default function CableSizePage() {
         <h1 className="text-3xl font-bold mb-6">
           Cable Size Calculator ⚡
         </h1>
+        <Link
+         href="/"
+         className="text-blue-600 hover:underline mb-4 block"
+        >
+         ← Back to Home
+        </Link>
 
         <label className="block mb-2">
           Current (A)
