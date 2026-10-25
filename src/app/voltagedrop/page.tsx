@@ -16,7 +16,7 @@ export default function VoltageDropPage() {
 
   return (
     <main className="min-h-screen bg-slate-100 flex items-center justify-center">
-      <div className="bg-white p-8 rounded-xl shadow w-96">
+      <div className="bg-white p-8 rounded-xl shadow w-full max-w-md">
         <h1 className="text-3xl font-bold mb-6">
           Voltage Drop Calculator ⚡
         </h1>
