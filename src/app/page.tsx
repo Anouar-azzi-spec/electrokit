@@ -41,6 +41,11 @@ export default function Home() {
         >
          Cable Size ⚡
         </Link>
+        <Link
+         href="/about"
+         className="p-6 bg-slate-200 rounded-xl shadow text-center hover:bg-slate-300 transition md:col-span-2">
+          About ElectroKit ⚡
+        </Link>
       </div>
       <p className="mt-10 text-sm text-gray-500">
        Built by North Forge ⚒️
