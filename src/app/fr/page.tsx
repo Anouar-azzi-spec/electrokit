@@ -6,6 +6,15 @@ export default function FrenchHome() {
       <h1 className="text-5xl font-bold mb-4">
         ElectroKit ⚡
       </h1>
+      <div className="mb-6">
+       <Link href="/">
+         🇬🇧 English
+       </Link>
+
+       <Link href="/fr" className="ml-4">
+         🇫🇷 Français
+       </Link>
+      </div>
 
       <p className="text-xl text-gray-700 mb-2 text-center">
         Outils simples de génie électrique
