@@ -7,14 +7,17 @@ export default function FrenchHome() {
         ElectroKit ⚡
       </h1>
       <div className="mb-6">
-       <Link href="/">
+       <Link href="/" className="font-semibold">
          🇬🇧 English
        </Link>
 
-       <Link href="/fr" className="ml-4">
+        <span className="mx-2">|</span>
+
+       <Link href="/fr" className="font-semibold">
          🇫🇷 Français
        </Link>
       </div>
+
 
       <p className="text-xl text-gray-700 mb-2 text-center">
         Outils simples de génie électrique
@@ -25,7 +28,7 @@ export default function FrenchHome() {
         Rapide. Pratique. Gratuit.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl w-full">
         <Link
           href="/power"
           className="p-6 bg-white rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200"
@@ -55,7 +58,7 @@ export default function FrenchHome() {
         </Link>
 
         <Link
-          href="/about"
+          href="/fr/about"
           className="p-6 bg-slate-300 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200 md:col-span-2"
         >
           À propos d'ElectroKit ⚡

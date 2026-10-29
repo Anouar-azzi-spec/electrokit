@@ -6,17 +6,18 @@ export default function Home() {
       <h1 className="text-5xl font-bold mb-4">
        ElectroKit ⚡
       </h1>
-      
-      <div className="flex gap-4 mb-6">
-       <Link
-         href="/"className="text-blue-600 hover:underline">
+     <div className="mb-6">
+       <Link href="/" className="font-semibold">
          🇬🇧 English
        </Link>
 
-       <Link href="/fr"className="text-blue-600 hover:underline">
+        <span className="mx-2">|</span>
+
+       <Link href="/fr" className="font-semibold">
          🇫🇷 Français
        </Link>
-      </div>
+     </div>
+
 
       <p className="text-xl text-gray-700 mb-2 text-center">
        Simple Electrical Engineering Tools
