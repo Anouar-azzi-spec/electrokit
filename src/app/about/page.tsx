@@ -35,17 +35,27 @@ export default function AboutPage() {
         </ul>
 
         <h2 className="text-2xl font-bold mb-3">
-          Roadmap
+         Roadmap
         </h2>
 
         <ul className="list-disc ml-6 mb-6 text-gray-700">
-          <li>French Version 🇫🇷</li>
+          <li>Complete French Translation 🇫🇷</li>
           <li>Arabic Version 🇩🇿</li>
-          <li>Solar Calculators ☀️</li>
+          <li>Solar System Calculators ☀️</li>
           <li>Circuit Breaker Sizing ⚡</li>
           <li>Earthing Calculations 🌍</li>
+          <li>Electrical Installation Tools 🔧</li>
+          <li>User Feedback System 💬</li>
         </ul>
 
+        <h2 className="text-2xl font-bold mb-3">
+          Current Version
+        </h2>
+
+        <p className="mb-6 text-gray-700">
+          ElectroKit v1.4
+        </p> 
+        
         <p className="mb-6 text-gray-700">
           Built by North Forge ⚒️, a workshop dedicated to building useful,
           practical and accessible engineering software.

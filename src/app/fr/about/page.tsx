@@ -65,6 +65,14 @@ export default function FrenchAboutPage() {
           <li>Outils d'installation électrique</li>
         </ul>
 
+        <h2 className="text-2xl font-bold mb-3">
+          Version Actuelle
+        </h2>
+
+        <p className="mb-6 text-gray-700">
+          ElectroKit v1.4
+        </p>
+
         <p className="mb-6 text-gray-600">
           Conçu par North Forge ⚒️
         </p>
