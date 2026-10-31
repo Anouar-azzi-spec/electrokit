@@ -57,12 +57,13 @@ export default function FrenchAboutPage() {
         </h2>
 
         <ul className="list-disc pl-6 mb-6 text-gray-700">
-          <li>Version française complète</li>
+          <li>Traduction française complète</li>
           <li>Version arabe</li>
-          <li>Calculs solaires</li>
+          <li>Outils d'installation électrique</li>
           <li>Dimensionnement des disjoncteurs</li>
           <li>Calculs de mise à la terre</li>
-          <li>Outils d'installation électrique</li>
+          <li>Calculs solaires</li>
+          <li>Système de retour utilisateur</li>
         </ul>
 
         <h2 className="text-2xl font-bold mb-3">
@@ -74,7 +75,7 @@ export default function FrenchAboutPage() {
         </p>
 
         <p className="mb-6 text-gray-600">
-          Conçu par North Forge ⚒️
+          Développé par North Forge ⚒️
         </p>
 
         <Link
