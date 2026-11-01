@@ -30,28 +30,27 @@ export default function FrenchHome() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl w-full">
         <Link
-          href="/power"
+          href="/fr/puissance"
           className="p-6 bg-white rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200"
         >
           Calculateur de Puissance ⚡
         </Link>
 
         <Link
-          href="/current"
+          href="/fr/courant"
           className="p-6 bg-blue-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200"
         >
           Calculateur de Courant ⚡
         </Link>
 
         <Link
-          href="/voltagedrop"
-          className="p-6 bg-yellow-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200"
-        >
+          href="/fr/chutedetension"
+          className="p-6 bg-yellow-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
           Chute de Tension ⚡
         </Link>
 
         <Link
-          href="/cablesize"
+          href="/fr/sectiondecable"
           className="p-6 bg-purple-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200"
         >
           Section de Câble ⚡
@@ -66,7 +65,7 @@ export default function FrenchHome() {
       </div>
 
       <p className="mt-10 text-sm text-gray-500">
-        Conçu par North Forge ⚒️
+        Développé par North Forge ⚒️
       </p>
 
       <p className="text-xs text-gray-400 mt-1">
