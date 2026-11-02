@@ -58,6 +58,9 @@ export default function Home() {
         >
          Cable Size ⚡
         </Link>
+        <Link href="/load" className="p-6 bg-green-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+          Residential Load Calculator 🔧
+        </Link>
         <Link
          href="/about"
          className="p-6 bg-gray-200 rounded-xl shadow text-center 
