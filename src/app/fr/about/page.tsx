@@ -46,10 +46,11 @@ export default function FrenchAboutPage() {
         </h2>
 
         <ul className="list-disc pl-6 mb-6 text-gray-700">
-          <li>Calculateur de Puissance</li>
-          <li>Calculateur de Courant</li>
-          <li>Chute de Tension</li>
-          <li>Section de Câble</li>
+          <li>⚡ Calculateur de Puissance</li>
+          <li>⚡ Calculateur de Courant</li>
+          <li>⚡ Chute de Tension</li>
+          <li>⚡ Section de Câble</li>
+          <li>🔧 Calculateur de Charge Résidentielle</li>
         </ul>
 
         <h2 className="text-2xl font-bold mb-3">

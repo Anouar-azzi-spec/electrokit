@@ -32,6 +32,7 @@ export default function AboutPage() {
           <li>⚡ Current Calculator</li>
           <li>⚡ Voltage Drop Calculator</li>
           <li>⚡ Cable Size Calculator</li>
+          <li>🔧 Residential Load Calculator</li>
         </ul>
 
         <h2 className="text-2xl font-bold mb-3">
