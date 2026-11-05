@@ -78,7 +78,7 @@ export default function Home() {
        Built by North Forge ⚒️
       </p>
       <p className="text-xs text-gray-400 mt-1">
-       ElectroKit v1.2
+       ElectroKit v1.6
       </p>
     </main>
   );
