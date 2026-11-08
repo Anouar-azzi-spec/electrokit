@@ -65,7 +65,12 @@ export default function Home() {
          className="p-6 bg-red-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
          Circuit Breaker Selector ⚡
         </Link>
-
+        <Link href="/earthing" className="p-6 bg-emerald-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+         Earthing Calculator 🌍
+        </Link>
+        <Link href="/solar" className="p-6 bg-amber-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+         Solar Panel Calculator ☀️
+        </Link>
         <Link
          href="/about"
          className="p-6 bg-gray-200 rounded-xl shadow text-center 
