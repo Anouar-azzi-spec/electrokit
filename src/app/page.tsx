@@ -74,7 +74,9 @@ export default function Home() {
         <Link href="/battery" className="p-6 bg-cyan-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
          Battery Bank Calculator 🔋
         </Link>
-        
+        <Link href="/inverter" className="p-6 bg-lime-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+         Inverter Calculator ⚡
+        </Link>
         <Link
          href="/about"
          className="p-6 bg-gray-200 rounded-xl shadow text-center 
