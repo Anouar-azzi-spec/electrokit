@@ -71,6 +71,10 @@ export default function Home() {
         <Link href="/solar" className="p-6 bg-amber-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
          Solar Panel Calculator ☀️
         </Link>
+        <Link href="/battery" className="p-6 bg-cyan-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+         Battery Bank Calculator 🔋
+        </Link>
+        
         <Link
          href="/about"
          className="p-6 bg-gray-200 rounded-xl shadow text-center 
@@ -83,7 +87,7 @@ export default function Home() {
        Built by North Forge ⚒️
       </p>
       <p className="text-xs text-gray-400 mt-1">
-       ElectroKit v1.6
+       ElectroKit v1.8
       </p>
     </main>
   );
