@@ -30,66 +30,29 @@ export default function Home() {
 
       <div 
         className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl w-full">
-        <Link href="/power" 
-         className="p-6 bg-white rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
-          Power Calculator ⚡
+        <Link href="/electrical"className="p-6 bg-white rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+         Electrical Fundamentals ⚡
         </Link>
 
-        <Link
-         href="/current"
-         className="p-6 bg-blue-200 rounded-xl shadow text-center 
-         hover:scale-105 hover:shadow-xl transition duration-200"
-        >
-          Current Calculator ⚡
-        </Link>
-
-       <Link
-         href="/voltagedrop"
-         className="p-6 bg-yellow-200 rounded-xl shadow text-center 
-         hover:scale-105 hover:shadow-xl transition duration-200"
-       >
-         Voltage Drop ⚡
+       <Link href="/installation" className="p-6 bg-green-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+         Installation Toolkit 🔧
        </Link>
 
-        <Link
-         href="/cablesize"
-         className="p-6 bg-purple-200 rounded-xl shadow text-center 
-         hover:scale-105 hover:shadow-xl transition duration-200"
-        >
-         Cable Size ⚡
-        </Link>
-        <Link href="/load" className="p-6 bg-green-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
-          Residential Load Calculator 🔧
-        </Link>
-        <Link href="/breaker"
-         className="p-6 bg-red-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
-         Circuit Breaker Selector ⚡
-        </Link>
-        <Link href="/earthing" className="p-6 bg-emerald-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
-         Earthing Calculator 🌍
-        </Link>
         <Link href="/solar" className="p-6 bg-amber-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
-         Solar Panel Calculator ☀️
+         Solar Toolkit ☀️
         </Link>
-        <Link href="/battery" className="p-6 bg-cyan-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
-         Battery Bank Calculator 🔋
-        </Link>
-        <Link href="/inverter" className="p-6 bg-lime-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
-         Inverter Calculator ⚡
-        </Link>
+
         <Link
          href="/about"
-         className="p-6 bg-gray-200 rounded-xl shadow text-center 
-         hover:scale-105 hover:shadow-xl transition duration-200 md:col-span-2"
-        >
-          About ElectroKit ⚡
+         className="p-6 bg-slate-300 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+         About ElectroKit ⚡
         </Link>
       </div>
       <p className="mt-10 text-sm text-gray-500">
        Built by North Forge ⚒️
       </p>
       <p className="text-xs text-gray-400 mt-1">
-       ElectroKit v1.8
+       ElectroKit v2.0
       </p>
     </main>
   );
