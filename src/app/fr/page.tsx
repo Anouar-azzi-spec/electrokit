@@ -29,39 +29,23 @@ export default function FrenchHome() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl w-full">
-        <Link
-          href="/fr/puissance"
-          className="p-6 bg-white rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200"
-        >
-          Calculateur de Puissance ⚡
+
+        <Link href="/fr/electrical" className="p-6 bg-white rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+         Fondamentaux Électriques ⚡
         </Link>
 
-        <Link
-          href="/fr/courant"
-          className="p-6 bg-blue-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200"
-        >
-          Calculateur de Courant ⚡
+        <Link href="/fr/installation" className="p-6 bg-green-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+         Outils d'Installation 🔧
         </Link>
 
-        <Link
-          href="/fr/chutedetension"
-          className="p-6 bg-yellow-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
-          Chute de Tension ⚡
+        <Link href="/fr/solar" className="p-6 bg-amber-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+         Outils Solaires ☀️
         </Link>
 
-        <Link
-          href="/fr/sectiondecable"
-          className="p-6 bg-purple-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200"
-        >
-          Section de Câble ⚡
+        <Link href="/fr/about" className="p-6 bg-slate-300 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+         À propos d'ElectroKit ⚡
         </Link>
 
-        <Link
-          href="/fr/about"
-          className="p-6 bg-slate-300 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200 md:col-span-2"
-        >
-          À propos d'ElectroKit ⚡
-        </Link>
       </div>
 
       <p className="mt-10 text-sm text-gray-500">
@@ -69,7 +53,7 @@ export default function FrenchHome() {
       </p>
 
       <p className="text-xs text-gray-400 mt-1">
-        ElectroKit v1.6
+        ElectroKit v2.0
       </p>
     </main>
   );

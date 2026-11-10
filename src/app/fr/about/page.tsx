@@ -72,7 +72,7 @@ export default function FrenchAboutPage() {
         </h2>
 
         <p className="mb-6 text-gray-700">
-          ElectroKit v1.4
+          ElectroKit v2.0
         </p>
 
         <p className="mb-6 text-gray-600">
