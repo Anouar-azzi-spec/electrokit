@@ -1,0 +1,17 @@
+{
+  "name": "ElectroKit",
+  "short_name": "ElectroKit",
+  "description": "Electrical Engineering Toolkit",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2563eb",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/electrokit-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
