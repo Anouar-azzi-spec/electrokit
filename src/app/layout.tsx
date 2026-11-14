@@ -12,17 +12,25 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "ElectroKit",
-  description: "Electrical Engineering Toolkit",
+export const metadata: Metadata = {
+  title: "ElectroKit ⚡",
+  description:
+    "Electrical Engineering and Installation Toolkit",
   manifest: "/manifest.json",
+
   icons: {
     icon: "/electrokit-icon.png",
     apple: "/electrokit-icon.png",
   },
+  applicationName: "ElectroKit",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) 
+{
   return (
     <html
       lang="en"
