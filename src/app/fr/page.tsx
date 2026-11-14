@@ -53,7 +53,7 @@ export default function FrenchHome() {
       </p>
 
       <p className="text-xs text-gray-400 mt-1">
-        ElectroKit v2.0
+        ElectroKit v2.2
       </p>
     </main>
   );

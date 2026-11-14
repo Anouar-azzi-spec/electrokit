@@ -22,49 +22,72 @@ export default function FrenchAboutPage() {
         </h1>
 
         <p className="mb-4 text-gray-700">
-          ElectroKit est une collection d'outils pratiques de génie électrique
-          conçus pour les étudiants, les électriciens, les techniciens et les
+          ElectroKit est une boîte à outils bilingue de génie électrique
+          conçue pour les étudiants, les électriciens, les techniciens et les
           ingénieurs.
         </p>
 
-        <p className="mb-6 text-gray-700">
-          L'objectif d'ElectroKit est de rendre les calculs électriques rapides,
-          accessibles et faciles à utiliser.
+        <p className="mb-4 text-gray-700">
+          L'objectif d'ElectroKit est simple : fournir des outils pratiques,
+          rapides et gratuits permettant de résoudre des problèmes réels de
+          génie électrique et d'installation.
         </p>
 
-        <h2 className="text-2xl font-bold mb-3">
-          Mission
-        </h2>
-
         <p className="mb-6 text-gray-700">
-          Fournir des outils pratiques permettant de résoudre rapidement
-          des problèmes réels de génie électrique.
+          ElectroKit est le premier produit développé par North Forge ⚒️ et est
+          disponible en anglais et en français.
         </p>
 
         <h2 className="text-2xl font-bold mb-3">
           Fonctionnalités Actuelles
         </h2>
 
-        <ul className="list-disc pl-6 mb-6 text-gray-700">
-          <li>⚡ Calculateur de Puissance</li>
-          <li>⚡ Calculateur de Courant</li>
-          <li>⚡ Chute de Tension</li>
-          <li>⚡ Section de Câble</li>
-          <li>🔧 Calculateur de Charge Résidentielle</li>
-        </ul>
+        <div className="mb-6 text-gray-700">
+
+          <p className="font-semibold mb-2">
+            ⚡ Fondamentaux Électriques
+          </p>
+
+          <ul className="list-disc pl-6 mb-4">
+            <li>Calculateur de Puissance</li>
+            <li>Calculateur de Courant</li>
+          </ul>
+
+          <p className="font-semibold mb-2">
+            🔧 Outils d'Installation
+          </p>
+
+          <ul className="list-disc pl-6 mb-4">
+            <li>Calculateur de Charge Résidentielle</li>
+            <li>Sélecteur de Disjoncteur</li>
+            <li>Section de Câble</li>
+            <li>Chute de Tension</li>
+            <li>Calculateur de Mise à la Terre</li>
+          </ul>
+
+          <p className="font-semibold mb-2">
+            ☀️ Outils Solaires
+          </p>
+
+          <ul className="list-disc pl-6">
+            <li>Calculateur de Panneaux Solaires</li>
+            <li>Calculateur de Batteries</li>
+            <li>Calculateur d'Onduleur</li>
+          </ul>
+
+        </div>
 
         <h2 className="text-2xl font-bold mb-3">
           Feuille de Route
         </h2>
 
         <ul className="list-disc pl-6 mb-6 text-gray-700">
-          <li>Traduction française complète</li>
-          <li>Version arabe</li>
-          <li>Outils d'installation électrique</li>
-          <li>Dimensionnement des disjoncteurs</li>
-          <li>Calculs de mise à la terre</li>
-          <li>Calculs solaires</li>
-          <li>Système de retour utilisateur</li>
+          <li>Version Arabe 🇩🇿</li>
+          <li>Calculs de Moteurs ⚙️</li>
+          <li>Calculs de Transformateurs 🔌</li>
+          <li>Outils Solaires Avancés ☀️</li>
+          <li>Rapports et Exportations 📄</li>
+          <li>Système de Retour Utilisateur 💬</li>
         </ul>
 
         <h2 className="text-2xl font-bold mb-3">
@@ -72,11 +95,12 @@ export default function FrenchAboutPage() {
         </h2>
 
         <p className="mb-6 text-gray-700">
-          ElectroKit v2.0
+          ElectroKit v2.2
         </p>
 
         <p className="mb-6 text-gray-600">
-          Développé par North Forge ⚒️
+          Développé par North Forge ⚒️, un atelier dédié à la création de logiciels
+          d'ingénierie utiles, pratiques et accessibles.
         </p>
 
         <Link
