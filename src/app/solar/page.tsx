@@ -19,7 +19,7 @@ export default function SolarPage() {
         <div className="grid gap-4">
 
           <Link
-            href="/solar"
+            href="/solar-panel"
             className="p-6 bg-amber-200 rounded-xl shadow"
           >
             Solar Panel Calculator ☀️
