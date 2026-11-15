@@ -41,7 +41,9 @@ export default function Home() {
         <Link href="/solar" className="p-6 bg-amber-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
          Solar Toolkit ☀️
         </Link>
-
+        <Link href="/electronics" className="p-6 bg-orange-200 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
+         Electronics Toolkit 🔌
+        </Link>
         <Link
          href="/about"
          className="p-6 bg-slate-300 rounded-xl shadow text-center hover:scale-105 hover:shadow-xl transition duration-200">
