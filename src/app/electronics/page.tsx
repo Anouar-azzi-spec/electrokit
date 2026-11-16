@@ -27,6 +27,16 @@ export default function ElectronicsPage() {
           <Link href="/voltage-divider" className="p-6 bg-yellow-200 rounded-xl shadow">
            Voltage Divider Calculator 🔌
           </Link>
+          <Link href="/resistor-code" className="p-6 bg-amber-200 rounded-xl shadow">
+            Resistor Color Code Decoder 🎨
+          </Link>
+          <Link href="/battery-runtime" className="p-6 bg-cyan-200 rounded-xl shadow">
+           Battery Runtime Calculator 🔋
+          </Link>
+          <Link
+            href="/pcb-trace" className="p-6 bg-green-200 rounded-xl shadow">
+            PCB Trace Width Calculator 🔌
+          </Link>
 
         </div>
 
