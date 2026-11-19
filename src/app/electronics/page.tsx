@@ -37,6 +37,10 @@ export default function ElectronicsPage() {
             href="/pcb-trace" className="p-6 bg-green-200 rounded-xl shadow">
             PCB Trace Width Calculator 🔌
           </Link>
+          <Link href="/capacitor-decoder" className="p-6 bg-pink-200 rounded-xl shadow">
+           Capacitor Code Decoder 🔋
+          </Link>
+
 
         </div>
 
