@@ -40,6 +40,9 @@ export default function ElectronicsPage() {
           <Link href="/capacitor-decoder" className="p-6 bg-pink-200 rounded-xl shadow">
            Capacitor Code Decoder 🔋
           </Link>
+          <Link href="/pullup-resistor" className="p-6 bg-indigo-200 rounded-xl shadow">
+            Pull-Up Resistor Calculator 🔌
+          </Link>
 
 
         </div>
