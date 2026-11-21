@@ -49,7 +49,9 @@ export default function ElectronicsPage() {
           <Link href="/logic-divider" className="p-6 bg-teal-200 rounded-xl shadow">
            Logic Level Divider Calculator 🔌
           </Link>
-
+          <Link href="/uart-baud" className="p-6 bg-violet-200 rounded-xl shadow">
+           UART Baud Rate Calculator 📡
+          </Link>
 
         </div>
 
