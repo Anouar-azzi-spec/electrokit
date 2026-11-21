@@ -46,6 +46,9 @@ export default function ElectronicsPage() {
           <Link href="/adc-resolution" className="p-6 bg-sky-200 rounded-xl shadow">
             ADC Resolution Calculator 📊
           </Link>
+          <Link href="/logic-divider" className="p-6 bg-teal-200 rounded-xl shadow">
+           Logic Level Divider Calculator 🔌
+          </Link>
 
 
         </div>
