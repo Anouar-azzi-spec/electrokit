@@ -43,6 +43,9 @@ export default function ElectronicsPage() {
           <Link href="/pullup-resistor" className="p-6 bg-indigo-200 rounded-xl shadow">
             Pull-Up Resistor Calculator 🔌
           </Link>
+          <Link href="/adc-resolution" className="p-6 bg-sky-200 rounded-xl shadow">
+            ADC Resolution Calculator 📊
+          </Link>
 
 
         </div>
